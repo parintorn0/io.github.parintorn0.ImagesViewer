@@ -155,10 +155,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/magick.net-q16-anycpu/14.13.1/magick.net-q16-anycpu.14.13.1.nupkg",
-        "sha512": "0512d0293630079efd7a58db94d46e9098ecc333d5dde62c0fc35b128a836dab550d68f51e727fe72ac6e89048ac7ad13221a56433bf2d25b2f29245603a2ca9",
+        "url": "https://api.nuget.org/v3-flatcontainer/magick.net-q16-anycpu/14.14.0/magick.net-q16-anycpu.14.14.0.nupkg",
+        "sha512": "f149a1c5d671e0c76b615874cab3e2545d212dff422b88e51f324b0ac7dcfec1bf06f352a596aed1e92f2ce3dd08c51f055967abd0fc722d1ab795759e169c6d",
         "dest": "nuget-sources",
-        "dest-filename": "magick.net-q16-anycpu.14.13.1.nupkg"
+        "dest-filename": "magick.net-q16-anycpu.14.14.0.nupkg"
     },
     {
         "type": "file",
@@ -176,10 +176,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/magick.net.core/14.13.1/magick.net.core.14.13.1.nupkg",
-        "sha512": "e2c5c3fdc2a0d18ba07f0a49eaf245a8d4dc42043b8abc39f8f1504ffe6eb9158093e77f7194c0e60e79998ddcea268e6a32faf136e5f745bc75a00380fcf4b8",
+        "url": "https://api.nuget.org/v3-flatcontainer/magick.net.core/14.14.0/magick.net.core.14.14.0.nupkg",
+        "sha512": "476f1e6d037bc6ef744eff7dda4d805fc01c3a3c24dc87bb8de86051b0a9d165fca390e2771cdfba1bfb4ac26a7c74ad47c9ab40775acb2a3ca5e91f39a90a42",
         "dest": "nuget-sources",
-        "dest-filename": "magick.net.core.14.13.1.nupkg"
+        "dest-filename": "magick.net.core.14.14.0.nupkg"
     },
     {
         "type": "file",
