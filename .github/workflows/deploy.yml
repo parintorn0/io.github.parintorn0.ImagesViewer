@@ -63,7 +63,7 @@ jobs:
           GPG_KEY_ID: ${{ steps.import_gpg.outputs.keyid }}
 
       - name: Upload Flatpak Repository Artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           retention-days: 1
           path: repo/
@@ -81,4 +81,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
