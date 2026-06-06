@@ -11,6 +11,7 @@
   <launchable type="desktop-id">io.github.parintorn0.ImagesViewer.Vertical.desktop</launchable>
   <url type="homepage">https://example.com</url>
   <releases>
+    <release version="1.1.0" date="2026-06-06"/>
     <release version="1.0.1" date="2026-06-06"/>
     <release version="1.0.0" date="2026-06-06"/>
   </releases>
