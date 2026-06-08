@@ -39,7 +39,7 @@ modules:
         path: app
     build-commands:
       - mkdir -p ${FLATPAK_DEST}/bin
-      - dotnet publish ImagesViewer.Carousel -c Release --source ./nuget-sources --source /usr/lib/sdk/dotnet10/nuget/packages --runtime $RUNTIME --no-self-contained
+      - dotnet publish ImagesViewer.Carousel -c Release --source ./nuget-sources --source /usr/lib/sdk/dotnet10/nuget/packages --runtime $RUNTIME --no-self-contained /p:TreatWarningsAsErrors=false
       - cp -r --remove-destination /run/build/ImagesViewer.Carousel/ImagesViewer.Carousel/bin/Release/net10.0/$RUNTIME/publish/* /app/bin/
       - install -D share/applications/${FLATPAK_ID}.desktop /app/share/applications/${FLATPAK_ID}.desktop
       - install -D share/metainfo/${FLATPAK_ID}.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
