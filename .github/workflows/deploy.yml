@@ -98,13 +98,17 @@ jobs:
           pattern: repo-*
           path: artifacts/
 
-      # Use the first repo as the base, merge the rest into it
       - name: Merge all repos into one
         run: |
-          cp -r artifacts/repo-Carousel-x86_64 merged-repo
+          # Init a fresh repo as merge target
+          flatpak build-init-repo merged-repo
 
-          for repo in artifacts/repo-Carousel-aarch64 artifacts/repo-Vertical-x86_64 artifacts/repo-Vertical-aarch64; do
-            flatpak build-commit-from --src-repo="$repo" merged-repo
+          for variant in Carousel-x86_64 Carousel-aarch64 Vertical-x86_64 Vertical-aarch64; do
+            SRC="artifacts/repo-$variant"
+            echo "=== Merging $variant ==="
+            # Ensure refs/remotes exists in source (required by build-commit-from)
+            mkdir -p "$SRC/refs/remotes"
+            flatpak build-commit-from --src-repo="$SRC" merged-repo
           done
 
       - name: Update merged repo
