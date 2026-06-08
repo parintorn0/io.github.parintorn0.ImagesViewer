@@ -101,7 +101,7 @@ jobs:
       # Use the first repo as the base, merge the rest into it
       - name: Merge all repos into one
         run: |
-          flatpak build-init-repo merged-repo
+          ostree init --mode=archive-z2 --repo=merged-repo
 
           for variant in Carousel-x86_64 Carousel-aarch64 Vertical-x86_64 Vertical-aarch64; do
             SRC="artifacts/repo-$variant"
