@@ -35,7 +35,7 @@ jobs:
       - name: Setup Dotnet 10
         uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: '10.0.103'
+          dotnet-version: '10.0.300'
 
       - name: Build Flatpak Repository
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
