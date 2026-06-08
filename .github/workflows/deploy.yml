@@ -107,7 +107,11 @@ jobs:
             SRC="artifacts/repo-$variant"
             echo "=== Merging $variant ==="
             mkdir -p "$SRC/refs/remotes"
-            flatpak build-commit-from --src-repo="$SRC" merged-repo
+            flatpak build-commit-from \
+              --no-gpg-verify \
+              --gpg-sign=${{ steps.import_gpg.outputs.keyid }} \
+              --src-repo="$SRC" \
+              merged-repo
           done
 
       - name: Update merged repo
