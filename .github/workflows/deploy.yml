@@ -7,12 +7,32 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - arch: x86_64
+            manifest: io.github.parintorn0.ImagesViewer.Carousel.yml
+            variant: Carousel
+            runs-on: ubuntu-latest
+          - arch: aarch64
+            manifest: io.github.parintorn0.ImagesViewer.Carousel.yml
+            variant: Carousel
+            runs-on: ubuntu-24.04-arm
+          - arch: x86_64
+            manifest: io.github.parintorn0.ImagesViewer.Vertical.yml
+            variant: Vertical
+            runs-on: ubuntu-latest
+          - arch: aarch64
+            manifest: io.github.parintorn0.ImagesViewer.Vertical.yml
+            variant: Vertical
+            runs-on: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runs-on }}
     container:
       image: ghcr.io/flathub-infra/flatpak-github-actions:freedesktop-25.08
       options: --privileged
       env:
         DOTNET_CLI_HOME: /tmp
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -40,36 +60,72 @@ jobs:
       - name: Build Flatpak Repository
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
-          manifest-path: io.github.parintorn0.ImagesViewer.Carousel.yml
-          build-bundle: false
-          gpg-sign: ${{ steps.import_gpg.outputs.keyid }}
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-
-      - name: Build Flatpak Repository
-        uses: flatpak/flatpak-github-actions/flatpak-builder@v6
-        with:
-          manifest-path: io.github.parintorn0.ImagesViewer.Vertical.yml
+          manifest-path: ${{ matrix.manifest }}
+          arch: ${{ matrix.arch }}
           build-bundle: false
           gpg-sign: ${{ steps.import_gpg.outputs.keyid }}
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
       
-      - name: Update Flatpak Repository
-        run: flatpak build-update-repo --gpg-sign=${GPG_KEY_ID} --generate-static-deltas --prune repo
+      - name: Upload Flatpak Repository Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: repo-${{ matrix.variant }}-${{ matrix.arch }}
+          path: repo/
+          retention-days: 1
+
+  publish:
+    needs: build
+    if: success()
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:freedesktop-25.08
+      options: --privileged
+
+    steps:
+
+      - name: Import GPG key
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v7
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
+      - name: Download all repo artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: repo-*
+          path: artifacts/
+
+      # Use the first repo as the base, merge the rest into it
+      - name: Merge all repos into one
+        run: |
+          cp -r artifacts/repo-Carousel-x86_64 merged-repo
+
+          for repo in artifacts/repo-Carousel-aarch64 artifacts/repo-Vertical-x86_64 artifacts/repo-Vertical-aarch64; do
+            flatpak build-commit-from --src-repo="$repo" merged-repo
+          done
+
+      - name: Update merged repo
+        run: |
+          flatpak build-update-repo \
+            --gpg-sign=${{ steps.import_gpg.outputs.keyid }} \
+            --generate-static-deltas \
+            --prune \
+            merged-repo
         env:
           GPG_KEY_ID: ${{ steps.import_gpg.outputs.keyid }}
+
 
       - name: Upload Flatpak Repository Artifact
         uses: actions/upload-pages-artifact@v5
         with:
           retention-days: 1
-          path: repo/
+          path: merged-repo/
 
   deploy:
-    needs: build
+    needs: publish
     if: success()
     permissions:
       pages: write
@@ -78,6 +134,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
