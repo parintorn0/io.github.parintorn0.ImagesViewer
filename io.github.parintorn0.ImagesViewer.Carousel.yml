@@ -1,5 +1,5 @@
 app-id: io.github.parintorn0.ImagesViewer.Carousel
-version: '2.0.7'
+version: '2.0.8'
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
