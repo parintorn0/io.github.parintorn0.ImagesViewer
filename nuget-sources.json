@@ -1,59 +1,59 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.controls/6.0.3/atomui.controls.6.0.3.nupkg",
-        "sha512": "518c252cb29fbd8c7940f9e37bb8348a1348c89051048e2937dc9f14d3142369ac8cebadf04718a16058721c7a57e6de123b956575c53d87afa9a3cba0e29648",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.controls/6.0.7/atomui.controls.6.0.7.nupkg",
+        "sha512": "bce2a05ad8f07bb5301fd5b5d25f60e121c86ed355a6a947503d46e942aae13f9571e2e24cb652d01abcff037e6d1988147c87c9a515af35859ddec988e4494d",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.controls.6.0.3.nupkg"
+        "dest-filename": "atomui.controls.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.controls.shared/6.0.3/atomui.controls.shared.6.0.3.nupkg",
-        "sha512": "2a312d1491a6d18372683fb1ee893957dd2a2c172235fbb3f4b49df2497d794ed56516f09135eb1d1c88ac68ccb6b0c3928901a9d4fa8e997862c244bbff29b5",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.controls.shared/6.0.7/atomui.controls.shared.6.0.7.nupkg",
+        "sha512": "9c6cae45f39d7167e4164fe1a5bcdf56e051b100396f3450703fd7ae56838db9490ebca4e07d9c09e0fdbacd2e9b6ac4374c8d248b9e2839516840aa64ca9532",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.controls.shared.6.0.3.nupkg"
+        "dest-filename": "atomui.controls.shared.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.core/6.0.3/atomui.core.6.0.3.nupkg",
-        "sha512": "455fcf14ae5f69f08bdfa105995a7703d98ab5ed37aa12a931cf00a870812cea39a61f3d917b0494ad3cd79211189a32aab2b4adca334493263f0c9ba37d1724",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.core/6.0.7/atomui.core.6.0.7.nupkg",
+        "sha512": "05560ea230b5783f0d5a4618339df692325634f2a4c2fee160d82fa6669c8fc39355b85fe9d4ac4ff54562ea67392843d370ef70c147f3a4a0095ae27cb3388f",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.core.6.0.3.nupkg"
+        "dest-filename": "atomui.core.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.desktop.controls/6.0.3/atomui.desktop.controls.6.0.3.nupkg",
-        "sha512": "74477a17aa014b4573e786eea59dd3261d7b3282d5cab33901588a2b0d2e07884602d3e6fa9849d6f04d09f892f83068ef5bb6a098e7610a493cd75ac8932c3d",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.desktop.controls/6.0.7/atomui.desktop.controls.6.0.7.nupkg",
+        "sha512": "171bd88b1d4587510e54ced481d0d2bdf0358f0052651b2305c7d61fb91906a8d1a85ec5a977dace27bfdfdf74198c2a4f797f225e4a84f00269da2b95535e7e",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.desktop.controls.6.0.3.nupkg"
+        "dest-filename": "atomui.desktop.controls.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.fonts.alibabasans/6.0.3/atomui.fonts.alibabasans.6.0.3.nupkg",
-        "sha512": "9002bba061df751e1ee65670ff4671284bd91c20fe1b0d8f01b05940adf8995056df73e18d31a468d6164372af1c78fe106145155957070aeea9ef3f426f7527",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.fonts.alibabasans/6.0.7/atomui.fonts.alibabasans.6.0.7.nupkg",
+        "sha512": "c9936d016fe8fb5a2aa55012e153f49a9acff8269e271db38266e9941f97a0b414c4d224c6fb5e1642aed9b8eb32f6a9be6d81c205c4ef21abe6640a8026095b",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.fonts.alibabasans.6.0.3.nupkg"
+        "dest-filename": "atomui.fonts.alibabasans.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.icons.antdesign/6.0.3/atomui.icons.antdesign.6.0.3.nupkg",
-        "sha512": "1863402c7043a04f341fe01e8c7394fc45ea9922af21ec3ba081a286e79e9639576fb8991e3f015f88ce6774a54906ef4eb4bf6d6679bffdc70630d951acc30f",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.icons.antdesign/6.0.7/atomui.icons.antdesign.6.0.7.nupkg",
+        "sha512": "1acc938dee04d89966bed317ea720da66f71e53a05e5711ebe3d238e804f56b20831dc3fe84e9902b143d7535ee84379881d29c3adfd25cf0b6f7e56d699e050",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.icons.antdesign.6.0.3.nupkg"
+        "dest-filename": "atomui.icons.antdesign.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/atomui.native/6.0.3/atomui.native.6.0.3.nupkg",
-        "sha512": "882847f24177ccff6f4c650bb967af003ca81e1ca87cb42819859a44d7e8534df0c58ef6e11a7883d5a5f3b84abf48a0ca9e8e172be607c32c192a5dcdd21081",
+        "url": "https://api.nuget.org/v3-flatcontainer/atomui.native/6.0.7/atomui.native.6.0.7.nupkg",
+        "sha512": "5eba6fb7235d51414d436a9c689d5d5b4564b2114ac80fbf5b1e5fe6de694419428345f79c88860edbbfeaad0ddc4e2421c107d395475a37583b28d51c951a0a",
         "dest": "nuget-sources",
-        "dest-filename": "atomui.native.6.0.3.nupkg"
+        "dest-filename": "atomui.native.6.0.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia/12.0.4/avalonia.12.0.4.nupkg",
-        "sha512": "50c9484e3cdfd7a2daa16ec461a03359575b3fa1b90ba6370ea6d95bd9d4aec7117c51080481617d62774a14683538029113ad0e46734694b3033d533155fe59",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia/12.0.5/avalonia.12.0.5.nupkg",
+        "sha512": "17ed5a9bc6e1748314dc702717481be339c453f8ceaa429e9ec0ffa7db3b4445406e68c7155985a499bbd64e3d08f401e4531e1e3d03d0e327c1061ffbbb566f",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.12.0.4.nupkg"
+        "dest-filename": "avalonia.12.0.5.nupkg"
     },
     {
         "type": "file",
@@ -71,80 +71,73 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.desktop/12.0.4/avalonia.desktop.12.0.4.nupkg",
-        "sha512": "1530fda559bd77a6e85585c4451c2704aadbde09f8b2122b5acc47fd37405a7a0e15dfd2a3e960c19f33a1c1c4cb892532e70ef5e1ccf491ecc18c8411175c9e",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.desktop/12.0.5/avalonia.desktop.12.0.5.nupkg",
+        "sha512": "425527cacde6931ab6d6fd544ff6667e6158eeb9a4b3f2b006c1a17ed2266562ba87758ba84131f4f3161410cd1eb7a3686b19d23246d108f7e2a5f73e093e23",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.desktop.12.0.4.nupkg"
+        "dest-filename": "avalonia.desktop.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.freedesktop/12.0.4/avalonia.freedesktop.12.0.4.nupkg",
-        "sha512": "e50c1380f19d1b943cebba19b7c396c25c66bb3ce9c00adb8026e970abf2e19fe39e00584765747c29bbbaf23ac4de6f8f46b4747a9553bfa7ea0b0cfc7a61a6",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.freedesktop/12.0.5/avalonia.freedesktop.12.0.5.nupkg",
+        "sha512": "4fc5799d4891fc6adc2356a6c71708c6e28c884e5416da061a17c75ec46ac540e8c0ee3ffb6d0c8e982a8b40a0b04b7891ca7dbdf57dfc978152cb9392782897",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.freedesktop.12.0.4.nupkg"
+        "dest-filename": "avalonia.freedesktop.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.freedesktop.atspi/12.0.4/avalonia.freedesktop.atspi.12.0.4.nupkg",
-        "sha512": "44716199f62569a4c8f848d04b78345559326c95b863c63e133443b7b70e05349b5152bf524303133481fe6e5b7df83c703876731072ded4d577687008484115",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.freedesktop.atspi/12.0.5/avalonia.freedesktop.atspi.12.0.5.nupkg",
+        "sha512": "8bdfa8c600d24cc98996773210e8ce1884bc636637d90d0540a8b4dc170b540f151425085f2120a5dd1a7ebd46669cba0fe39ba546793378c8c9dfd932e45959",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.freedesktop.atspi.12.0.4.nupkg"
+        "dest-filename": "avalonia.freedesktop.atspi.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.harfbuzz/12.0.4/avalonia.harfbuzz.12.0.4.nupkg",
-        "sha512": "8e398795c2d60d51241c2771bcf363ae0f73f5b4e20cb60287ae8f95376cc130ac3c8570ae3e146a001d0d96197f140756ceac63218e4144883786c3aa870547",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.harfbuzz/12.0.5/avalonia.harfbuzz.12.0.5.nupkg",
+        "sha512": "22120e5d27102c38a51bc402140a9ac8af33ef8dd619e7a9d145194724e55836d9f83bf8f9c86cbab1d819023591d5a0ed699f540d7f88d481fab3ad9e34cc08",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.harfbuzz.12.0.4.nupkg"
+        "dest-filename": "avalonia.harfbuzz.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.native/12.0.4/avalonia.native.12.0.4.nupkg",
-        "sha512": "e4271be641526c1bab11a8d4a81c2cf3036750973f998679d7d7f6718194492bbe9e0cd0a099c2cd90f1270b1ba789dd9cc7936845456695e8cf3f72b191383a",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.native/12.0.5/avalonia.native.12.0.5.nupkg",
+        "sha512": "afcee1733ecfff359da79b103b2fc9b4a92a511cc8502ec9048a819c5a08743db6da745c8d880f1f26e9d4b3c2afd082d27215e5ec7a02a4c531163efa9a3c2e",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.native.12.0.4.nupkg"
+        "dest-filename": "avalonia.native.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.remote.protocol/12.0.4/avalonia.remote.protocol.12.0.4.nupkg",
-        "sha512": "443451c56d726201ff3462efe335949bdce2c9dbb7af94790ecc4c6772ef129292fc992ce79a073f5b04e2848574d86389c70124066b825eccb71c8b440d7cd2",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.remote.protocol/12.0.5/avalonia.remote.protocol.12.0.5.nupkg",
+        "sha512": "72d91d391c3a108bf077b04d0087ac9ce432d74c057bd1b45b3d3413c8db08981da62b1bd101741b5eef7a96f5a833e1d4bcc17647d1dca2335685ffd156ba4f",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.remote.protocol.12.0.4.nupkg"
+        "dest-filename": "avalonia.remote.protocol.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.skia/12.0.4/avalonia.skia.12.0.4.nupkg",
-        "sha512": "23005cf59a31c2a2637d4161ea115db0c80426c0f61b4457384b50d3fb546b4a4f85e27f6c2edd80bb0e5ea7f91efd65cd9c23fbc94227698417f9de4afeb2c8",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.skia/12.0.5/avalonia.skia.12.0.5.nupkg",
+        "sha512": "5fa07f6b8567e94e63ee79d86d9fd3456f8b8cbd38cf73e82ab4e033a3c84490a9c9f5447358c51d9b0bd544c68262372277e0777d4807a3dcb9a6835d7c7c22",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.skia.12.0.4.nupkg"
+        "dest-filename": "avalonia.skia.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.themes.fluent/12.0.4/avalonia.themes.fluent.12.0.4.nupkg",
-        "sha512": "f857618044bbad4bff208e5f80c542105591b819d7f2035ec3e9572b7556f165e756be962967a59bd2dfeb0eb343a333ead2c703239076b2a90080da944d50e8",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.win32/12.0.5/avalonia.win32.12.0.5.nupkg",
+        "sha512": "ca81556a32d68be43c0fbd2dc76325a19705a9e4a3e6d76124c7c8fc5d61e835553b3dc37f6dfe0078d45d0fa64c288a9030be0649ef019cf0c9ae15e285deb6",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.themes.fluent.12.0.4.nupkg"
+        "dest-filename": "avalonia.win32.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.win32/12.0.4/avalonia.win32.12.0.4.nupkg",
-        "sha512": "ba5a3c02788cb0f4e17e4171b03b7cd9d3bfb36908e9a7435cfddec318d472be9e1cf7cb501c74be07f81e466776ffa102a2e88a4750008e3678a3595d5f5d6b",
+        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.x11/12.0.5/avalonia.x11.12.0.5.nupkg",
+        "sha512": "7ed8c05de0f1076ac95a37ba524e7f52dcd0e53f11ecd06777d429bda64c91dab202ba10090d2d4fe7533efbe7766889f8b854ecdca0294f75a9a66a4796b8c0",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.win32.12.0.4.nupkg"
+        "dest-filename": "avalonia.x11.12.0.5.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.x11/12.0.4/avalonia.x11.12.0.4.nupkg",
-        "sha512": "2baaf6feaadb5d2bf2fdc9d3d9f504deb87f84722b52781e7eac98e47e10467bcaaa6e97ccb90984a4160f34e5e8ebbff282ad9bed1e1fb5c41195cec0238313",
+        "url": "https://api.nuget.org/v3-flatcontainer/avaloniaui.diagnosticssupport/2.2.3/avaloniaui.diagnosticssupport.2.2.3.nupkg",
+        "sha512": "ed45ef48de934edd8c40d859212285d681f09b1316931bbf46311b5a2f3b8dfbcee14463d7954c5e8424baac8af8f72987fc8479e190907e7d04af815b972a64",
         "dest": "nuget-sources",
-        "dest-filename": "avalonia.x11.12.0.4.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avaloniaui.diagnosticssupport/2.2.2/avaloniaui.diagnosticssupport.2.2.2.nupkg",
-        "sha512": "dbe6e32f773112de3f69f03bd053a47fa8b0cc7e65469b4ffdc4e5456bce1dc1292fac4c3852eb96934dc9f900578151a4b46d22926707cdb60df1a51b7b13c3",
-        "dest": "nuget-sources",
-        "dest-filename": "avaloniaui.diagnosticssupport.2.2.2.nupkg"
+        "dest-filename": "avaloniaui.diagnosticssupport.2.2.3.nupkg"
     },
     {
         "type": "file",
