@@ -253,80 +253,80 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native/8.18.3/netvips.native.8.18.3.nupkg",
-        "sha512": "9280e5da850f1a8702f6a4953775582557aa53f48a3f3551a55cf8f117feb1217d661c49bd131267a17109c99af9a6416518be9c71401c2c707581202b3930e5",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native/8.18.4/netvips.native.8.18.4.nupkg",
+        "sha512": "ec04ddf1fea6a9dd5958f6e240f04c5808fdc74a11b07f5c07c237400e18b36bdb13ae8b43cd07efa6a4698349ad494c2837e311e3465b665df8edb96419d1d4",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.8.18.3.nupkg"
+        "dest-filename": "netvips.native.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-arm/8.18.3/netvips.native.linux-arm.8.18.3.nupkg",
-        "sha512": "beee8983adef667b0ae7ad03622402b34c68843cf13173a35cbef9e537a73c34928d77c593a2096e093a644949b9c96da55a58491af26003c29111af7881493d",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-arm/8.18.4/netvips.native.linux-arm.8.18.4.nupkg",
+        "sha512": "be272b20cf5aa58efc6dcd9621e46b6c688b49f2c75c47d0c2aa97d0562984f60ced8e85f0e360738efcfa8844540e665db5725a44c8cda2c1866022b4704f02",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.linux-arm.8.18.3.nupkg"
+        "dest-filename": "netvips.native.linux-arm.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-arm64/8.18.3/netvips.native.linux-arm64.8.18.3.nupkg",
-        "sha512": "695d25e76bff6f820ffe30fc465b449fbef3b4eb9ede74ebddcde21ee7996e3cbef4c26cdb1e032a68a8e7aa88be7f69c0b84c9964891b5bbea8b17865558c15",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-arm64/8.18.4/netvips.native.linux-arm64.8.18.4.nupkg",
+        "sha512": "4de3ed32ad9ec66fa78d92d3089e9a44f6e605c2e8ee8e24c5bdf5a92a41252b4e624baf7dfcd066ae28ce7e486db4ef8f8978b465062ce9e2a0b834076248b2",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.linux-arm64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.linux-arm64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-musl-arm64/8.18.3/netvips.native.linux-musl-arm64.8.18.3.nupkg",
-        "sha512": "ab67cfc6c112c78414289c2a37fa97db6e2ee1038e092e6a566d1a3b4f39e6b5213d5f42ce8783fa089b1ca55ba57101ee06ebdb7bf74cf62e6eb9549ea218f5",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-musl-arm64/8.18.4/netvips.native.linux-musl-arm64.8.18.4.nupkg",
+        "sha512": "391434b38b8adef2d1831d6643628a7872f67cb045652135cee19959c5c02030e3bc953b7e25be1a7293adf0f5f4f1d0940e1569aaf84c3d9ec1825f265930d7",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.linux-musl-arm64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.linux-musl-arm64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-musl-x64/8.18.3/netvips.native.linux-musl-x64.8.18.3.nupkg",
-        "sha512": "bcab27286576129a1d1d61205e5d74685219c9b3c7260c5d2491bd7746b8fe863cc526d6cd4ba89a3b26ef9851558123b36d92169aa04d54e2787348f7f4a75c",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-musl-x64/8.18.4/netvips.native.linux-musl-x64.8.18.4.nupkg",
+        "sha512": "7ca2e4a94a99e2207c9366f5573698e9f1092768bdba90de2f83c4c6ce0fa120ad319d60b34495476da173de2f03d3b7f303e9973e32dc7485aaca162e71bea2",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.linux-musl-x64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.linux-musl-x64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-x64/8.18.3/netvips.native.linux-x64.8.18.3.nupkg",
-        "sha512": "1d4c04477ad4d3df4d1830e17ca481739f2040c47972fb5959671f9a84922036db9208af604ba34fead5cef1d0be753659a15913212aadbae269f8a27cbd555c",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.linux-x64/8.18.4/netvips.native.linux-x64.8.18.4.nupkg",
+        "sha512": "5f1aef72ee613059ba3b1c39be2b4a1dad5e5f8d18e1cf1736e9797cfd1cfebcfd08e7eb72bfb5a6e5af7f29181c047eccbf106b398c31a1342f6449b28ee6f0",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.linux-x64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.linux-x64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.osx-arm64/8.18.3/netvips.native.osx-arm64.8.18.3.nupkg",
-        "sha512": "73a5fb1c5f595ef33f48f203e9cf984f1213fbdf3672a848af0e3fc98332a84bad069cf8dda3d4353ed80cbd7479d0c94158c154781176ceb76b3fa7d1d94171",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.osx-arm64/8.18.4/netvips.native.osx-arm64.8.18.4.nupkg",
+        "sha512": "1e20779af9ee1453010313e719999b5162de09347c90b5f95c44d3700bb149490f65a0f00e1bdfcd37ca0d4e8ef001fb36c56082e77c6381af391d97c5c1d5f2",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.osx-arm64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.osx-arm64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.osx-x64/8.18.3/netvips.native.osx-x64.8.18.3.nupkg",
-        "sha512": "1411ae172cb71445a975da5c3ebe9254a8cb1f16bc137893355b2ad1205e5e5e04f6d6e5982e8c6687885112ff70d5ffc89c70c6db3846f3aa16a8c4cbcd5344",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.osx-x64/8.18.4/netvips.native.osx-x64.8.18.4.nupkg",
+        "sha512": "467820aecc5c9ba86cef3c027e60cb041871eb16337c7d14b8737167be624e7e8baeef2ef76176d64b00fbaeefc6b41d988210718f68de61d0f6ef3a1cac9283",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.osx-x64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.osx-x64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-arm64/8.18.3/netvips.native.win-arm64.8.18.3.nupkg",
-        "sha512": "e3606d407ade083646bdabce2e44d5e889a4613247f3d706566e4a9eacb139859305267b1c3a408f291baffd3abd2874f4af0dbb5b132f872d8e72801447f893",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-arm64/8.18.4/netvips.native.win-arm64.8.18.4.nupkg",
+        "sha512": "d19219477557798c05f10b99bb674ecf617b918e2972f6ff7cfcc4b70eccc21783cc162104e5cd821fbcbcd92f8d436caf065283218823e02bdd6ff9bbc22ee9",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.win-arm64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.win-arm64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-x64/8.18.3/netvips.native.win-x64.8.18.3.nupkg",
-        "sha512": "4b3a4e67e9af500fb4c71eb5a6949824d495161efb1cf6ad969b6c15cfcc3746bdfc719a19492825d66c108023eb75c1e6272935d0b7f735d0ab9dfcd4e039f1",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-x64/8.18.4/netvips.native.win-x64.8.18.4.nupkg",
+        "sha512": "8fa67d9b92b09dd5e2e2e045f69794fea8603a5d769ffa7b8dc92da45f0d44fa4d89e9e4887ba9ee1651e77a7ce6cd52d5d4b03f1a2f264a124377c4bc23262d",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.win-x64.8.18.3.nupkg"
+        "dest-filename": "netvips.native.win-x64.8.18.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-x86/8.18.3/netvips.native.win-x86.8.18.3.nupkg",
-        "sha512": "6fe80d1aba7b9ce5699b143f09d03d3c77d174e1a362828bff77b86cca24b84c7bcbedb42a3d8c846a73d20a55c991fbd7573676eb61e06dfbac158553942be2",
+        "url": "https://api.nuget.org/v3-flatcontainer/netvips.native.win-x86/8.18.4/netvips.native.win-x86.8.18.4.nupkg",
+        "sha512": "838a1b5d2ddc63c7099764b7b2f93a3c663757264f80b45e88ccbe265aa3555d76a820aac1542e07e0503e3ae390d72d8dd4311d89b14ec05907287c4b9e5303",
         "dest": "nuget-sources",
-        "dest-filename": "netvips.native.win-x86.8.18.3.nupkg"
+        "dest-filename": "netvips.native.win-x86.8.18.4.nupkg"
     },
     {
         "type": "file",
